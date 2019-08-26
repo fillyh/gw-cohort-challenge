@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri:700|Nanum+Gothic&display=swap');
+
+body{
+    margin: 0 auto;
+}
+
+
+h1, h2, h3, h4, h5, h6, p{
+    color:#1e272e;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+}
+/* nav section */
+
+.nav li a:hover, .navbar-default{
+    background-color: transparent;
+}
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    color: #fff;
+    background-color:#1e272e;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #fcfcfc;
+    text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus{
+    color: #f8512f;
+    background-color:#1e272e;
+}
+
+nav.navbar{
+    border:none;
+    border-radius: 0px;
+    background-color:#1e272e;
+    margin:0px;
+}
+
+
+.navbar-brand > img{
+    margin-top:-7px;
+    height:40px;
+    padding-bottom:6px;
+}
+/* End nav section */
+
+/* Hero Section */
+
+.main_hdr{
+    padding-top:100px;
+    padding-bottom:100px;
+    background-image: url("../img/hero_img.jpg");
+    background-size: cover;
+    background-position:center;
+    min-height:500px;
+}
+h1{
+    color:white;
+    font-size:80px;
+    text-align:center;
+}
+
+.row_highlight{
+    background-color: #f1f2f6;
+}
+
+
+
+
+
+  /* Body Section */
+.hero_icon{
+    max-width: 400px;
+    padding:10px;
+}
+.hero_title{
+    font-size:35px;
+    padding-top:110px;
+}
+.sub_hdr{
+    background-color:#1e272e;
+    padding:40px;
+}
+
+
+.sub_hdr>h2{
+    font-size:60px;
+    color:white;
+}
+
+.title{
+    font-size:20px;
+    margin-bottom:3px;
+}
+.my_icon{
+    padding:0px 10px;
+    max-width:300px;
+    text-align: center;
+    max-width:180px;
+}
+
+.my_row{
+    margin-bottom:40px;
+}
+
+.cta_btn{
+    width:100%;
+    font-size: 20px;
+    padding:20px 0px;
+    margin:40px 0px;
+}
+
+
+/* Footer Section */
+footer{
+    background-color:#1e272e;
+    padding:40px;
+    color:white;
+
+}
+
+footer img{
+    height:50px;
+}
+/* Media Queries */
+
+@media only screen and (max-width: 986px) {
+    .hero_title{
+        padding-top:10px;
+    }
+
+    .center_smscrn{
+        text-align:center;
+    }
+    
+  }
+
+  @media only screen and (max-width: 700px) {
+h1{
+    font-size:45px;
+}
+
+.sub_hdr>h2{
+    font-size:30px;
+}
+
+.hero_title{
+    font-size:25px;
+}
+.main_hdr{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+    
+  }
